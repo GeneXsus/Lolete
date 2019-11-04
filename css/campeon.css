@@ -1,0 +1,38 @@
+.campeon{
+    width: 100%;
+    padding: 30px 15px;
+}
+.detalles-generales{
+    display: flex;
+    width: 100%;
+}
+.contenedor-imagen-campeon{
+    width: 30%;
+    margin-right: 30px ;
+}
+.imagen-campeon{
+    width: 100%;
+}
+.contenedor-texto-campeon{
+    width: 60%;
+}
+.nombre-campeon{
+    margin-bottom: 30px;
+}
+.informacion-campeon{
+    margin-bottom: 5px;
+}
+.descripcion-campeon{
+    margin-top: 10px;
+}
+.habilidad{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 15px;
+}
+.contenedor-datos-habilidad{
+    width: 100%;
+}
+.contenedor-imagen-habilidad{
+    
+}

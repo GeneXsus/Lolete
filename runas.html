@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lolete-Runas</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/runas.css">
+</head>
+
+<body id=runas>
+    <header>
+        <div class="contenedor">
+         
+            <div id='contenedor-logo'>
+                <a href="index.html" title="Inicio">
+                    <img src="./img/logo.png" title="Lolete" alt="Logo Lolete">
+                </a>
+            </div>
+            <div class="contendor-flecha-atras">
+                    <a class="enlace-atras" href="index.html" title="Ir atrás (Inicio)">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none"/>
+                            <path class='contenido-svg' d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="#ffffff"/>
+                        </svg>
+                    </a>
+    
+                </div>
+        </div>
+    </header>
+    <div id='contenedor-menu'>
+    
+        <nav id=menu>
+            <a class='item-menu' href="campeones.html" title="Campeones">CAMPEONES</a>
+            <a class='item-menu ' href="items.html" title="Items">ITEMS</a>
+            <a class='item-menu seleccionado'  title="Runas">RUNAS</a>
+        </nav>
+     
+    
+    </div>
+    <div class="contenedor cuerpo con-menu">
+        <section class='contenedor-runas' >
+            <div class='fila-runas'>
+                <article class='contenedor-runa precision izquierda'>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ataque-intensificado.jpg" alt="Ataque intensificado">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ATAQUE INTENSIFICADO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Golpear a un campeón enemigo con 3 ataques básicos consecutivos inflige 30-120 de daño adaptable adicional (según el nivel) y lo deja vulnerable, aumentando un 12% el daño que recibe de todas las fuentes durante 6 s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/compas-letal.jpg" alt="Compás letal">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    COMPÁS LETAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    En los 1.5 s después de dañar a un campeón, obtienes un 40-110% de velocidad de ataque (según el nivel) durante 3 s. Al atacar a un campeón, el efecto se prolonga a 6 s.<br>Enfriamiento: 6 s.<br>Compás letal te permite sobrepasar el límite de velocidad de ataque temporalmente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/pies-veloces.jpg" alt="Pies veloves">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PIES VELOCES
+                                </h2>
+                                <p class='texto-runa'>
+                                    Atacando y moviendote generas acumulaciones de energía. A las 100 acumulaciones, tu siguiente ataque será con Vigor.<br>Los ataques con Vigor te curan 3-60 (+0.3 de DA adicional, +0.3 de PH) de vida y te otorgan +20% de velocidad de movimiento durante 1 s.<br>La curación recibida de súbditos tiene una efectividad del 20% en el caso de campeones a distancia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/conquistador.jpg" alt="Conquistador">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    Conquistador
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los ataques o hechizos que infligen daño a un campeón enemigo otorgan 2-6 de fuerza adaptable (según el nivel) durante 2 s (8 s para campeones cuerpo a cuerpo). Se acumula hasta 5 veces.<br>Con el máximo de acumulaciones, convierte un 8% del daño en daño verdadero y cura esa cantidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Supercuracion.png" alt="Supercuracion">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    SUPER CURACIÓN
+                                </h2>
+                                <p class='texto-runa'>
+                                    El exceso de curación que recibes se convierte en un escudo de hasta 10 (+10% de la vida máxima).<br>El escudo se crea del 20% hasta el 100% de tu curación excedente o la de los aliados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Triunfo.png" alt="Triunfo">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    TRIUNFO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 12% de la vida que te falte y otorgan otros 20 de oro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Claridad_mental.png" alt="Paz mental">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PAZ MENTAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 20% de tu maná máximo y devuelven un 10% del enfriamiento de tu definitiva.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Presteza.png" alt="Legenda: Presteza">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: PRESTEZA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 3% de velocidad de ataque y un 1.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Tenacidad.png" alt="Leyenda: Tenacidad">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: TENACIDAD
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 5% de tenacidad y un 2.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Linaje.png" alt="Leyenda  Linaje">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                LEGENDA: LINAJE
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 0.6% de robo de vida por cada acumulación de Leyenda (20 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Golpe_de_gracia.png" alt="Golpe de gracia">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    GOLPE DE GRACIA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Infliges un 8% más de daño a los campeones que estén por debajo del 40% de vida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Derribado.png" alt="Derribado">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    DERRIBADO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges de 5% a 15% más de daño contra campeones enemigos, según la vida máxima que te saquen.<br>El daño adicional aumenta de forma lineal contra enemigos que tengan de 10% a 100% de vida máxima más que tú.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ulltimo_esfuerzo.png" alt="Último esfuerzo">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ÚLTIMO ESFUERZO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges un 5-11% más de daño a los campeones mientras estés por debajo del 60% de vida. El daño máximo se consigue al llegar al 30% de vida.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+                <article class='contenedor-runa dominacion derecha'>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ataque-intensificado.jpg" alt="Ataque intensificado">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ATAQUE INTENSIFICADO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Golpear a un campeón enemigo con 3 ataques básicos consecutivos inflige 30-120 de daño adaptable adicional (según el nivel) y lo deja vulnerable, aumentando un 12% el daño que recibe de todas las fuentes durante 6 s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/compas-letal.jpg" alt="Compás letal">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    COMPÁS LETAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    En los 1.5 s después de dañar a un campeón, obtienes un 40-110% de velocidad de ataque (según el nivel) durante 3 s. Al atacar a un campeón, el efecto se prolonga a 6 s.<br>Enfriamiento: 6 s.<br>Compás letal te permite sobrepasar el límite de velocidad de ataque temporalmente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/pies-veloces.jpg" alt="Pies veloves">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PIES VELOCES
+                                </h2>
+                                <p class='texto-runa'>
+                                    Atacando y moviendote generas acumulaciones de energía. A las 100 acumulaciones, tu siguiente ataque será con Vigor.<br>Los ataques con Vigor te curan 3-60 (+0.3 de DA adicional, +0.3 de PH) de vida y te otorgan +20% de velocidad de movimiento durante 1 s.<br>La curación recibida de súbditos tiene una efectividad del 20% en el caso de campeones a distancia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/conquistador.jpg" alt="Conquistador">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    Conquistador
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los ataques o hechizos que infligen daño a un campeón enemigo otorgan 2-6 de fuerza adaptable (según el nivel) durante 2 s (8 s para campeones cuerpo a cuerpo). Se acumula hasta 5 veces.<br>Con el máximo de acumulaciones, convierte un 8% del daño en daño verdadero y cura esa cantidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Supercuracion.png" alt="Supercuracion">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    SUPER CURACIÓN
+                                </h2>
+                                <p class='texto-runa'>
+                                    El exceso de curación que recibes se convierte en un escudo de hasta 10 (+10% de la vida máxima).<br>El escudo se crea del 20% hasta el 100% de tu curación excedente o la de los aliados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Triunfo.png" alt="Triunfo">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    TRIUNFO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 12% de la vida que te falte y otorgan otros 20 de oro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Claridad_mental.png" alt="Paz mental">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PAZ MENTAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 20% de tu maná máximo y devuelven un 10% del enfriamiento de tu definitiva.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Presteza.png" alt="Legenda: Presteza">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: PRESTEZA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 3% de velocidad de ataque y un 1.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Tenacidad.png" alt="Leyenda: Tenacidad">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: TENACIDAD
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 5% de tenacidad y un 2.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Linaje.png" alt="Leyenda  Linaje">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                LEGENDA: LINAJE
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 0.6% de robo de vida por cada acumulación de Leyenda (20 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Golpe_de_gracia.png" alt="Golpe de gracia">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    GOLPE DE GRACIA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Infliges un 8% más de daño a los campeones que estén por debajo del 40% de vida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Derribado.png" alt="Derribado">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    DERRIBADO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges de 5% a 15% más de daño contra campeones enemigos, según la vida máxima que te saquen.<br>El daño adicional aumenta de forma lineal contra enemigos que tengan de 10% a 100% de vida máxima más que tú.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ulltimo_esfuerzo.png" alt="Último esfuerzo">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ÚLTIMO ESFUERZO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges un 5-11% más de daño a los campeones mientras estés por debajo del 60% de vida. El daño máximo se consigue al llegar al 30% de vida.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+            <div class='fila-runas'>
+                
+
+                <article class='contenedor-runa brujeria izquierda'>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ataque-intensificado.jpg" alt="Ataque intensificado">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ATAQUE INTENSIFICADO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Golpear a un campeón enemigo con 3 ataques básicos consecutivos inflige 30-120 de daño adaptable adicional (según el nivel) y lo deja vulnerable, aumentando un 12% el daño que recibe de todas las fuentes durante 6 s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/compas-letal.jpg" alt="Compás letal">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    COMPÁS LETAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    En los 1.5 s después de dañar a un campeón, obtienes un 40-110% de velocidad de ataque (según el nivel) durante 3 s. Al atacar a un campeón, el efecto se prolonga a 6 s.<br>Enfriamiento: 6 s.<br>Compás letal te permite sobrepasar el límite de velocidad de ataque temporalmente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/pies-veloces.jpg" alt="Pies veloves">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PIES VELOCES
+                                </h2>
+                                <p class='texto-runa'>
+                                    Atacando y moviendote generas acumulaciones de energía. A las 100 acumulaciones, tu siguiente ataque será con Vigor.<br>Los ataques con Vigor te curan 3-60 (+0.3 de DA adicional, +0.3 de PH) de vida y te otorgan +20% de velocidad de movimiento durante 1 s.<br>La curación recibida de súbditos tiene una efectividad del 20% en el caso de campeones a distancia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/conquistador.jpg" alt="Conquistador">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    Conquistador
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los ataques o hechizos que infligen daño a un campeón enemigo otorgan 2-6 de fuerza adaptable (según el nivel) durante 2 s (8 s para campeones cuerpo a cuerpo). Se acumula hasta 5 veces.<br>Con el máximo de acumulaciones, convierte un 8% del daño en daño verdadero y cura esa cantidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Supercuracion.png" alt="Supercuracion">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    SUPER CURACIÓN
+                                </h2>
+                                <p class='texto-runa'>
+                                    El exceso de curación que recibes se convierte en un escudo de hasta 10 (+10% de la vida máxima).<br>El escudo se crea del 20% hasta el 100% de tu curación excedente o la de los aliados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Triunfo.png" alt="Triunfo">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    TRIUNFO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 12% de la vida que te falte y otorgan otros 20 de oro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Claridad_mental.png" alt="Paz mental">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PAZ MENTAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 20% de tu maná máximo y devuelven un 10% del enfriamiento de tu definitiva.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Presteza.png" alt="Legenda: Presteza">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: PRESTEZA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 3% de velocidad de ataque y un 1.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Tenacidad.png" alt="Leyenda: Tenacidad">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: TENACIDAD
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 5% de tenacidad y un 2.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Linaje.png" alt="Leyenda  Linaje">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                LEGENDA: LINAJE
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 0.6% de robo de vida por cada acumulación de Leyenda (20 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Golpe_de_gracia.png" alt="Golpe de gracia">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    GOLPE DE GRACIA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Infliges un 8% más de daño a los campeones que estén por debajo del 40% de vida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Derribado.png" alt="Derribado">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    DERRIBADO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges de 5% a 15% más de daño contra campeones enemigos, según la vida máxima que te saquen.<br>El daño adicional aumenta de forma lineal contra enemigos que tengan de 10% a 100% de vida máxima más que tú.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ulltimo_esfuerzo.png" alt="Último esfuerzo">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ÚLTIMO ESFUERZO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges un 5-11% más de daño a los campeones mientras estés por debajo del 60% de vida. El daño máximo se consigue al llegar al 30% de vida.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+                <article class='contenedor-runa valor derecha'>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ataque-intensificado.jpg" alt="Ataque intensificado">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ATAQUE INTENSIFICADO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Golpear a un campeón enemigo con 3 ataques básicos consecutivos inflige 30-120 de daño adaptable adicional (según el nivel) y lo deja vulnerable, aumentando un 12% el daño que recibe de todas las fuentes durante 6 s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/compas-letal.jpg" alt="Compás letal">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    COMPÁS LETAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    En los 1.5 s después de dañar a un campeón, obtienes un 40-110% de velocidad de ataque (según el nivel) durante 3 s. Al atacar a un campeón, el efecto se prolonga a 6 s.<br>Enfriamiento: 6 s.<br>Compás letal te permite sobrepasar el límite de velocidad de ataque temporalmente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/pies-veloces.jpg" alt="Pies veloves">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PIES VELOCES
+                                </h2>
+                                <p class='texto-runa'>
+                                    Atacando y moviendote generas acumulaciones de energía. A las 100 acumulaciones, tu siguiente ataque será con Vigor.<br>Los ataques con Vigor te curan 3-60 (+0.3 de DA adicional, +0.3 de PH) de vida y te otorgan +20% de velocidad de movimiento durante 1 s.<br>La curación recibida de súbditos tiene una efectividad del 20% en el caso de campeones a distancia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/conquistador.jpg" alt="Conquistador">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    Conquistador
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los ataques o hechizos que infligen daño a un campeón enemigo otorgan 2-6 de fuerza adaptable (según el nivel) durante 2 s (8 s para campeones cuerpo a cuerpo). Se acumula hasta 5 veces.<br>Con el máximo de acumulaciones, convierte un 8% del daño en daño verdadero y cura esa cantidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Supercuracion.png" alt="Supercuracion">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    SUPER CURACIÓN
+                                </h2>
+                                <p class='texto-runa'>
+                                    El exceso de curación que recibes se convierte en un escudo de hasta 10 (+10% de la vida máxima).<br>El escudo se crea del 20% hasta el 100% de tu curación excedente o la de los aliados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Triunfo.png" alt="Triunfo">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    TRIUNFO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 12% de la vida que te falte y otorgan otros 20 de oro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Claridad_mental.png" alt="Paz mental">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PAZ MENTAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 20% de tu maná máximo y devuelven un 10% del enfriamiento de tu definitiva.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Presteza.png" alt="Legenda: Presteza">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: PRESTEZA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 3% de velocidad de ataque y un 1.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Tenacidad.png" alt="Leyenda: Tenacidad">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: TENACIDAD
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 5% de tenacidad y un 2.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Linaje.png" alt="Leyenda  Linaje">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                LEGENDA: LINAJE
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 0.6% de robo de vida por cada acumulación de Leyenda (20 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Golpe_de_gracia.png" alt="Golpe de gracia">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    GOLPE DE GRACIA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Infliges un 8% más de daño a los campeones que estén por debajo del 40% de vida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Derribado.png" alt="Derribado">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    DERRIBADO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges de 5% a 15% más de daño contra campeones enemigos, según la vida máxima que te saquen.<br>El daño adicional aumenta de forma lineal contra enemigos que tengan de 10% a 100% de vida máxima más que tú.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ulltimo_esfuerzo.png" alt="Último esfuerzo">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ÚLTIMO ESFUERZO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges un 5-11% más de daño a los campeones mientras estés por debajo del 60% de vida. El daño máximo se consigue al llegar al 30% de vida.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+            <div class='fila-runas'>
+                
+               
+                <article class='contenedor-runa inspiracion centro'>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ataque-intensificado.jpg" alt="Ataque intensificado">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ATAQUE INTENSIFICADO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Golpear a un campeón enemigo con 3 ataques básicos consecutivos inflige 30-120 de daño adaptable adicional (según el nivel) y lo deja vulnerable, aumentando un 12% el daño que recibe de todas las fuentes durante 6 s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/compas-letal.jpg" alt="Compás letal">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    COMPÁS LETAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    En los 1.5 s después de dañar a un campeón, obtienes un 40-110% de velocidad de ataque (según el nivel) durante 3 s. Al atacar a un campeón, el efecto se prolonga a 6 s.<br>Enfriamiento: 6 s.<br>Compás letal te permite sobrepasar el límite de velocidad de ataque temporalmente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/pies-veloces.jpg" alt="Pies veloves">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PIES VELOCES
+                                </h2>
+                                <p class='texto-runa'>
+                                    Atacando y moviendote generas acumulaciones de energía. A las 100 acumulaciones, tu siguiente ataque será con Vigor.<br>Los ataques con Vigor te curan 3-60 (+0.3 de DA adicional, +0.3 de PH) de vida y te otorgan +20% de velocidad de movimiento durante 1 s.<br>La curación recibida de súbditos tiene una efectividad del 20% en el caso de campeones a distancia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/conquistador.jpg" alt="Conquistador">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    Conquistador
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los ataques o hechizos que infligen daño a un campeón enemigo otorgan 2-6 de fuerza adaptable (según el nivel) durante 2 s (8 s para campeones cuerpo a cuerpo). Se acumula hasta 5 veces.<br>Con el máximo de acumulaciones, convierte un 8% del daño en daño verdadero y cura esa cantidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Supercuracion.png" alt="Supercuracion">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    SUPER CURACIÓN
+                                </h2>
+                                <p class='texto-runa'>
+                                    El exceso de curación que recibes se convierte en un escudo de hasta 10 (+10% de la vida máxima).<br>El escudo se crea del 20% hasta el 100% de tu curación excedente o la de los aliados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Triunfo.png" alt="Triunfo">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    TRIUNFO
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 12% de la vida que te falte y otorgan otros 20 de oro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Claridad_mental.png" alt="Paz mental">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    PAZ MENTAL
+                                </h2>
+                                <p class='texto-runa'>
+                                    Los asesinatos y asistencias restauran un 20% de tu maná máximo y devuelven un 10% del enfriamiento de tu definitiva.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Presteza.png" alt="Legenda: Presteza">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: PRESTEZA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 3% de velocidad de ataque y un 1.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Tenacidad.png" alt="Leyenda: Tenacidad">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    LEGENDA: TENACIDAD
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 5% de tenacidad y un 2.5% adicional por cada acumulación de Leyenda (10 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Leyenda_Linaje.png" alt="Leyenda  Linaje">     
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                LEGENDA: LINAJE
+                                </h2>
+                                <p class='texto-runa'>
+                                    Obtienes un 0.6% de robo de vida por cada acumulación de Leyenda (20 acumulaciones como máximo).<br>Consigue acumulaciones de Leyenda con asesinatos o asistencias de campeones y monstruos épicos, y por eliminaciones de monstruos grandes y de súbditos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='fila-runa'>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Golpe_de_gracia.png" alt="Golpe de gracia">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    GOLPE DE GRACIA
+                                </h2>
+                                <p class='texto-runa'>
+                                    Infliges un 8% más de daño a los campeones que estén por debajo del 40% de vida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/Derribado.png" alt="Derribado">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    DERRIBADO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges de 5% a 15% más de daño contra campeones enemigos, según la vida máxima que te saquen.<br>El daño adicional aumenta de forma lineal contra enemigos que tengan de 10% a 100% de vida máxima más que tú.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='runa'>
+                            <div class='contenedor-img'>
+                                <img src="img/ulltimo_esfuerzo.png" alt="Último esfuerzo">
+                            </div>
+                            <div class='capa-descripcion'>
+                                <h2 class='nombre-runa'>
+                                    ÚLTIMO ESFUERZO
+                                </h2>
+                                <p class='texto-runa'>
+                                        Infliges un 5-11% más de daño a los campeones mientras estés por debajo del 60% de vida. El daño máximo se consigue al llegar al 30% de vida.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <div class="contenedor">
+            <div>
+                <a href="mapa-sitio.html" title='Mapa del sitio'>Mapa del sitio web</a>
+                <a href="legales.html" title='Páginas legales'>Páginas legales</a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
