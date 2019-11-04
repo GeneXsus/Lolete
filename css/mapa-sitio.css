@@ -1,0 +1,26 @@
+#contenedor-mapa-del-sitio{
+    width: 100%;
+    margin: 15px;
+}
+.mapa-sitio nav{
+    width: 100%;
+}
+.mapa-sitio> div{
+    margin-bottom: 15px;
+}
+
+.item-mapa{
+    width: 100%;
+    clear: both;
+    display: block;
+
+}
+.mapa-sitio a:hover{
+    color: #4f6fe1;
+}
+.grupo .item-mapa{
+    margin-bottom: 10px;
+}
+.hijos{
+    margin-left: 15px;
+}

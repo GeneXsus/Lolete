@@ -8,13 +8,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -30px;
-    margin-right: -30px;
 }
 
 #index .enlaces-paginas{
     width: 100%;
     padding: 15px 30px;
+}
+#index .enlaces-paginas:nth-child(even){
+    width: 100%;
+    padding: 15px 15px 15px 30px;
+}
+#index .enlaces-paginas:nth-child(odd){
+    width: 100%;
+    padding: 15px 30px 15px 15px;
+}
+#index .enlaces-paginas.unico{
+    padding: 15px 15px;
 }
 #index .con-imagen-escalable{
     width: 100%;
